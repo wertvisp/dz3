@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; 
+
+} 
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.wrapper{
+    font-family: "Verdana";
+    font-size: 20px;
+    margin: auto;
+max-width: 1300px;
+
+}
+
+nav {
+    padding: 16px 0;
+    background-color: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    }
+    nav ul li:first-child {
+    margin-left: 0px;
+    }
+
+    a {
+        color: #080101;
+        text-decoration: none;
+    }
+    
+    p{
+        font-size: large;
+    }
+
+    h1,h2,h3,h4,h5,h6,
+    .h1{
+        color: #300d17;
+}
+
+@keyframes color {
+    0%   { background: #FFFAFA; }
+    10%  { background: #F0FFF0; }
+    20%  { background: #F5FFFA; }
+    30%  { background: #AFEEEE; }
+    40%  { background: #7FFFD4; }
+    50%  { background: #40E0D0; }
+    60%  { background: #00CED1; }
+    70%  { background: #1E90FF; }
+    80%  { background: #00BFFF; }
+    90%  { background: #00FFFF; }
+    100% { background: #00FFFF; }
+  }
+  
+  body {
+    background: #dd0606; /* Fallback */
+    animation: color 15s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+
+p1{
+   font-family: "Caveat";
+   font-size:  25px;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.caveat- <uniquifier> {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@font-face{
+    font-family: "Georgia";
+    ;
+}
+
